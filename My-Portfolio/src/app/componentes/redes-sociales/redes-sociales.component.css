@@ -28,9 +28,10 @@
     margin: 10px;
 }
 
-#logoAP {
-    width: 150px;
+#logo {
+    width: 100px;
     margin: 10px;
+    margin-left: 40px;
 }
 
 img {
