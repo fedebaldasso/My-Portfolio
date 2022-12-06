@@ -53,15 +53,15 @@ p {
     font-size:larger;
     margin-top: 70%;
     position: absolute;
-    left: 4%;
-    top: -70px;
+    left: 7%; /*4%*/
+    top: -350px; /*-70px*/
 }
 
 #profesion {
     
     margin-top: 70%;
     position: absolute;
-    left: 7%;
-    top: -40px;
+    left: 9%; /*7%*/
+    top: -320px; /*-40px*/
     color: #ccd6f6;
 }

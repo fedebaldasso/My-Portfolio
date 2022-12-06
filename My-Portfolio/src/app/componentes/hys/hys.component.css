@@ -3,7 +3,10 @@
     color: #64ffda;
     /* padding: 20px; */
     height: 800px;
+}
 
+#soft {
+    height: 400px;
 }
 
 h1 {
