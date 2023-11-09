@@ -1,53 +1,77 @@
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 .row {
-    height: 800px;
-    padding: 20px;
-    background-color: #0a192f;
-    color: #64ffda;    
+  height: 1700px;
+  padding: 20px;
+  width: 100%;
+  background-color: #0a192f;
+  color: #64ffda;
 }
 
 .contenedor {
-    width: auto;
-    /* height: 400px; */
+  width: auto;
+  /* height: 400px; */
 }
 
 h1 {
-    position: absolute;
-    font-style: oblique;
-    margin-left: 20px;
-    margin-bottom: 20px;   
+  position: absolute;
+  font-style: oblique;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
-    position: relative;
-    top: 70px;
-    left: 10%;
+  position: relative;
+  top: 70px;
+  left: 10%;
 }
 
 p {
-    position: relative;
-    top: 70px;
-    left: 15%;
-    margin-top: 20px;
-    color: #ccd6f6;
+  position: relative;
+  top: 70px;
+  left: 15%;
+  margin-top: 20px;
+  color: #ccd6f6;
 }
 
-.parte1, .parte2, .parte3 {
-    display: inline-block;
-    text-align: justify;
+.parte1,
+.parte2,
+.parte3 {
+  display: inline-block;
+  text-align: justify;
 }
 
 .img-proyecto {
-    height: 200px;
-    width: 400px;
-    box-shadow: 10px 10px 30px #64ffda;
-    /* position: relative; */
-    /* top: 50px; */    
+  height: 200px;
+  width: 400px;
+  box-shadow: 10px 10px 30px #64ffda;
+  position: relative;
+  top: -40px;
+}
+
+#blog {
+  position: relative;
+  top: 60px;
 }
 
 #portfolio:hover {
-    box-shadow: 10px 10px 30px #04a32c;
+  box-shadow: 10px 10px 30px #04a32c;
 }
 
 #dashboard:hover {
-    box-shadow: 10px 10px 30px yellow;
+  box-shadow: 10px 10px 30px yellow;
+}
+
+#blog:hover {
+  box-shadow: 10px 10px 30px #759acb;
+}
+
+#proceso:hover {
+  box-shadow: 10px 10px 30px #9e1724;
 }

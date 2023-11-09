@@ -1,72 +1,82 @@
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  width: 100%;
+}
+
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .redes {
-    margin-right: 0.5em;
+  margin-right: 1em;
 }
 
-#Linkedin{
-    margin: 10px;
+#Linkedin {
+  margin: 10px;
 }
 
-#Twitter{
-    margin: 10px;
+#Twitter {
+  margin: 10px;
 }
 
-#Instagram{
-    margin: 10px;
+#Instagram {
+  margin: 10px;
 }
 
-#GitHub{
-    margin: 10px;
+#GitHub {
+  margin: 10px;
 }
 
-#Facebook{
-    margin: 10px;
+#Facebook {
+  margin: 10px;
 }
 
 #logo {
-    width: 100px;
-    margin: 10px;
-    margin-left: 40px;
+  width: 100px;
+  margin: 10px;
+  margin-left: 40px;
 }
 
 img {
-    width: 40px;
+  width: 40px;
 }
 
 .btn {
-    border-width: medium;
-    border-color: #64ffda;
-    color: #64ffda;
-    margin: 10px;
+  border-width: medium;
+  border-color: #64ffda;
+  color: #64ffda;
+  margin: 10px;
+  padding: 4px;
 }
 
 a img:hover {
-    background-color:#a8b2d1;
-    border-radius: 50%; 
-  }
+  background-color: #a8b2d1;
+  border-radius: 50%;
+}
 
 /*Para la vista de celular*/
 
 @media (max-width: 575px) {
+  .container {
+    flex-direction: column;
+  }
 
-    .container{
-        flex-direction: column;
-    }
-    
-    .redes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .redes img {
-        margin: 0.2em;
-    }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .redes img {
+    margin: 0.2em;
+  }
 }
-
